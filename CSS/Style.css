@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*Regras gerais de consumo*/
+
+.center{
+    text-align: center;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,1);
+}
+div#interface{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Cabecalho.*/
+
+header#cabecalho img#logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+    nav#menu{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        border-top: 2px solid #d5d5d5;
+        border-bottom: 2px solid #d5d5d5;
+
+    }
+        nav#menu ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+        }
+        nav#menu li{
+            display: inline-block;
+            color: #939393;
+            padding: 10px 15px 10px 15px;
+            margin: 5px;
+        }
+        nav#menu a{
+            display: block;
+            font-family: Arial, sans-serif;
+            font-size: 16pt;
+            text-decoration: none;
+        }
+        nav#menu a:hover{
+            color: #383838;
+            transition: 400ms;
+            transition-property: color;
+        }
+
+/*Corpo Noticias.*/
+
+section#corpo{
+    display: block;
+    float: left;
+    width: 1000px;
+    margin: 0px 0px 0px 65px;
+}
+section#corpo h3{
+    font-family: tahoma, sans-serif;
+    font-size: 10pt;
+    color: #ababab;
+}
+section#corpo p{
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+    section#corpo article{
+        margin-left: 300px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        font-family: Arial, sans-serif;
+        font-size: 14pt;
+    }
+    article h1, a{
+        font-family: Arial, sans-serif;
+        font-size: 18pt;
+        color: #575757;
+        margin: 10px;
+        padding: 10px 0px 10px 0px;
+    }
+    a#lin{
+        font-family: Arial, sans-serif;
+        font-size: 14pt;
+        color: #575757;
+        margin: 0px;
+    }
+    article#noticias a{
+        text-decoration: none;
+    }
+    article#noticias li{
+        font-family: Arial, sans-serif;
+        font-size: 14pt;
+    }
+
+/*Area de publicidade*/
+
+aside#lateral{
+    display: block;
+    float: right;
+    width: 400px;
+    height: 600px;
+    background-color: #eaeaea;
+    padding: 10px;
+    margin: 50px 40px 0px 0px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+footer#rodape {
+    clear: both;
+    background-color: #d5d5d5;
+    padding: 30px;
+}
+    footer#rodape p {
+        text-align: center;
+    }
+
+
+
+/*
+-----------------------------------------------------------------------------------------
+Pagina de Cadastro
+*/
+
+.Resultado{
+    display: none;
+    float: left;
+    width: 70%;
+    height: 100px;
+    margin: 20px 15% 10px 15%;
+}
+article#Formularios{
+    float: left;
+    width: 70%;
+    margin: 20px 15%;
+}
+    .FormularioInput{
+        float: left;
+        width: 40%;
+        padding: 20px 5%;
+    }
+    .FormularioInput100{
+        width: 100% !important;
+        padding: 0;
+        margin: 30px 0;
+    }
+    .FormularioInput input[type='text'], input[type='password']{
+        width: 100%;
+        height: 45px;
+    }
+    .FormularioInput input[type='submit']{
+        display: inline-block;
+        padding: 10px 30px;
+        background: #000000;
+        color: #fff;
+        font-weight: bold;
+        text-align: center; 
+        border-radius: 6px;
+        margin: 15px;
+    }
+
+
+
